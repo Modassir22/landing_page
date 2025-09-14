@@ -1,4 +1,4 @@
-<h1>How to start the code</h1>
+<h1>How to start the client side server</h1>
 
 ```
 git clone https://github.com/Modassir22/landing_page.git
