@@ -3,6 +3,13 @@
 git clone https://github.com/Modassir22/landing_page.git;
 ```
 
+```javascript I'm A tab
+console.log('Code Tab A');
+```
+```javascript I'm tab B
+console.log('Code Tab B');
+```
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
