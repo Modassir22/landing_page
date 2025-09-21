@@ -11,7 +11,9 @@ function App() {
   const handleMenu = () => {
     setMenu(!menu);
   };
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Baloo+Bhai+2:wght@400..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Michroma&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&family=Unbounded:wght@200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
   return (
     <>
       <div className="">
@@ -83,20 +85,20 @@ function App() {
             Free Content
           </li>
         </div>
-        <div className="text-center mt-4">
+        <div className="text-center mt-3">
           <p style={{ fontSize: "12px" }} className="text-primary">
             <b>BECOME A SEVEN FIGURE CREATER</b>
           </p>
-          <div>
+          <div className="mt-4">
             <h1 style={{ fontWeight: "bold" }} className="hero-font">
-              Taking LinkedIn creators from zero <br />
-              to <i className="highlight bg-zinc-600">Seven</i> figure income
+              Turn your LinkedIn profile into a <i style={{fontFamily:""}} className="highlight bg-zinc-600">client-generating</i>  machine
             </h1>
           </div>
           <div className="px-3" style={{ fontWeight: "500" }}>
             <p className="fs-6 hero-para">
-              Helping creators and buisnesses at any level get more leads,
-              <br /> make more sales, and earn life changing income
+              I help coaches, C-Suits and founders build personal brands,
+              attract inbound leads,
+              <br /> and close more clients on LinkedIn — all in just 90 days.
             </p>
           </div>
           <button
@@ -109,7 +111,7 @@ function App() {
             }}
             className="mt-4 rounded-pill fs-5 hero-btn"
           >
-            Choose Your Program
+            See How It Works
           </button>
           <div style={{ fontWeight: "500" }} className="mt-3 fs-5">
             <p className="h-para">Take the first step...</p>
@@ -156,16 +158,16 @@ function App() {
             ></i>
           </span>
         </div>
-        <div className="mt-5 text-center mb-5">
+        <div className="mt-5 text-center mb-5 ">
           <button
             style={{
               backgroundColor: "#133CA4",
               border: "none",
               fontWeight: "bold",
             }}
-            className="mt-1 rounded-2 fs-6 text-white  hero-btn2"
+            className="mt-1 rounded-2 text-white  hero-btn2"
           >
-            Seven-Figure Creators 3-Star Roadmap
+            Start your journey to a stronger LinkedIn brand today
           </button>
         </div>
         {/* Card */}
@@ -183,17 +185,28 @@ function App() {
             >
               LEVEL ONE
             </p>
-            <h4 className="mb-4">Start Selling on LinkedIn</h4>
-            <p>
-              create an offer that you can sell online with <br />
-              the FREE course
-            </p>
+            <h4 className="mb-2 fw-bold">Refine Your Profile</h4>
+            <div className="text-start p-4">
+              <li className="mb-2">
+                Your profile is your first impression on LinkedIn.
+              </li>
+              <li className="mb-2">
+                We optimize your LinkedIn so prospects instantly see your
+                authority and expertise.
+              </li>
+              <li className="mb-2">
+                Turn your LinkedIn into a lead-magnet, not just a CV.
+              </li>
+            </div>
             <p>
               <i className="fa-solid text-primary fa-circle-question"></i>{" "}
-              Haven't made a sale? Start here
+              Haven’t built your authority yet <br />
             </p>
-            <p style={{ fontWeight: "500" }} className="text-primary">
-              Get the free course{" "}
+            <p
+              style={{ fontWeight: "500", fontSize: "1rem" }}
+              className="text-primary"
+            >
+              Start here.
               <i
                 style={{ fontSize: "12px" }}
                 class="fa-solid fa-arrow-right"
@@ -202,7 +215,7 @@ function App() {
           </div>
           <div
             style={{ border: "0.5px solid gray", borderRadius: "5px" }}
-            className="col"
+            className="col hero-card"
           >
             <p
               style={{ fontWeight: "bold", fontSize: "12px" }}
@@ -210,17 +223,27 @@ function App() {
             >
               LEVEL TWO
             </p>
-            <h4 className="mb-4">Start Selling on LinkedIn</h4>
+            <h4 className="mb-2 fw-bold">Influence With Content</h4>
+            <div className="text-start p-3">
+              <li className="mb-2">Content is your voice.</li>
+              <li className="mb-2">
+                We help you create posts that educate, inspire, and position you
+                as the go-to expert.
+              </li>
+              <li className="mb-2">
+                Build credibility and attract the right audience through
+                thought-leadership.
+              </li>
+            </div>
             <p>
-              create an offer that you can sell online with <br />
-              the FREE course
+              <i className="fa-solid text-primary fa-circle-question"></i> Ready
+              to stand out with content ? Start here. <br />
             </p>
-            <p>
-              <i class="fa-solid text-primary fa-circle-question"></i> Haven't
-              made a sale? Start here
-            </p>
-            <p style={{ fontWeight: "500" }} className="text-primary">
-              Get the free course{" "}
+            <p
+              style={{ fontWeight: "500", fontSize: "1rem" }}
+              className="text-primary"
+            >
+              Start here.
               <i
                 style={{ fontSize: "12px" }}
                 class="fa-solid fa-arrow-right"
@@ -229,7 +252,7 @@ function App() {
           </div>
           <div
             style={{ border: "0.5px solid gray", borderRadius: "5px" }}
-            className=" col"
+            className="col hero-card"
           >
             <p
               style={{ fontWeight: "bold", fontSize: "12px" }}
@@ -237,17 +260,64 @@ function App() {
             >
               LEVEL THREE
             </p>
-            <h4 className="mb-4">Start Selling on LinkedIn</h4>
+            <h4 className="mb-2 fw-bold">Strengthen Community</h4>
+            <div className="text-start p-3">
+              <li className="mb-2">
+                LinkedIn isn’t just about broadcasting it's about building
+                relationships.
+              </li>
+              <li className="mb-2">
+                We help you grow
+                a strong community around your brand.
+              </li>
+              <li className="mb-2">Build trust, not just connections.</li>
+            </div>
             <p>
-              create an offer that you can sell online with <br />
-              the FREE course
+              <i className="fa-solid text-primary fa-circle-question"></i>{" "}
+              Want to grow an engaged network ? Start here. <br />
             </p>
+            <p
+              style={{ fontWeight: "500", fontSize: "1rem" }}
+              className="text-primary"
+            >
+              Start here.
+              <i
+                style={{ fontSize: "12px" }}
+                class="fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </div>
+          <div
+            style={{ border: "0.5px solid gray", borderRadius: "5px" }}
+            className="col hero-card"
+          >
+            <p
+              style={{ fontWeight: "bold", fontSize: "12px" }}
+              className="text-primary mt-3"
+            >
+              LEVEL FOUR
+            </p>
+            <h4 className="mb-2 fw-bold">Elevate Conversions</h4>
+            <div className="text-start p-4">
+              <li className="mb-2">
+                Visibility is great, but revenue is better.
+              </li>
+              <li className="mb-2">
+                We align your offers to convert followers into paying clients
+              </li>
+              <li className="mb-2">
+                Turn influence into consistent inbound leads.
+              </li>
+            </div>
             <p>
-              <i class="fa-solid text-primary fa-circle-question"></i> Haven't
-              made a sale? Start here
+              <i className="fa-solid text-primary fa-circle-question"></i>{" "}
+              Want clients, not just likes? Start here. <br />
             </p>
-            <p style={{ fontWeight: "500" }} className="text-primary">
-              Get the free course{" "}
+            <p
+              style={{ fontWeight: "500", fontSize: "1rem" }}
+              className="text-primary"
+            >
+              Start here.
               <i
                 style={{ fontSize: "12px" }}
                 class="fa-solid fa-arrow-right"
@@ -262,30 +332,26 @@ function App() {
               <div class="card info-sec mt-3">
                 <div class="card-body text-start p-2 mt-2 info-div2">
                   <h4 style={{ fontWeight: "bold" }} className="fs-2">
-                    Start Selling on LinkedIn
+                    Refine Your Profile
                   </h4>
                   <p style={{ fontSize: "14px" }} className="mb-2">
-                    A free course showing you exactly how to create an offer
-                    that sets, so you can start making money online
+                    Craft a LinkedIn profile that drives revenue.
                   </p>
                   <hr />
                   <p style={{ fontSize: "13px" }} className=" mt-3">
-                    <i class="text-primary fa-solid fa-circle-check"></i> Find
-                    your super power & ideal clients
+                    <i class="text-primary fa-solid fa-circle-check"></i> Optimize your headline & banner for authority
                   </p>
                   <p style={{ fontSize: "13px" }}>
-                    <i class="text-primary fa-solid fa-circle-check"></i> Pitch
-                    with confidents & start closing deals
+                    <i class="text-primary fa-solid fa-circle-check"></i> Rewrite your About section to sell without sounding salesy
                   </p>
                   <p style={{ fontSize: "13px" }}>
-                    <i class="fa-solid text-primary fa-circle-check"></i> Get
-                    ready to use offers and pitch check template
+                    <i class="fa-solid text-primary fa-circle-check"></i> Set up your services & featured section for instant credibility
                   </p>
                   <p style={{ marginLeft: "8px" }} className="text-primary">
-                    Get the free course{" "}
+                    Polish My Profile
                     <i
                       style={{ fontSize: "12px" }}
-                      class="fa-solid fa-arrow-right"
+                      class="fa-solid fa-arrow-right ml-1"
                     ></i>
                   </p>
                 </div>
@@ -304,7 +370,7 @@ function App() {
             </div>
           </div>
           {/* second section */}
-          <div class="row px-4 mx-5 info-div w-[100%]">
+          <div class="row px-4 mx-5 info-div w-[100%] info-rev">
             <div class="col-sm-6 mb-3 mt-3">
               <div class="card info-sec">
                 <div class="card-body info-img-div">
@@ -320,27 +386,23 @@ function App() {
               <div class="card info-sec mt-3">
                 <div class="card-body text-start p-2 mt-2 info-div2">
                   <h4 style={{ fontWeight: "bold" }} className="fs-2">
-                    Start Selling on LinkedIn
+                    Influence with Content
                   </h4>
                   <p style={{ fontSize: "14px" }} className="mb-2">
-                    A free course showing you exactly how to create an offer
-                    that sets, so you can start making money online
+                    Turn LinkedIn posts into magnets for leads, trust, and authority.
                   </p>
                   <hr />
                   <p style={{ fontSize: "13px" }} className=" mt-3">
-                    <i class="text-primary fa-solid fa-circle-check"></i> Find
-                    your super power & ideal clients
+                    <i class="text-primary fa-solid fa-circle-check"></i> Learn the psychology of viral posts
                   </p>
                   <p style={{ fontSize: "13px" }}>
-                    <i class="text-primary fa-solid fa-circle-check"></i> Pitch
-                    with confidents & start closing deals
+                    <i class="text-primary fa-solid fa-circle-check"></i> Share thought-leadership content consistently
                   </p>
                   <p style={{ fontSize: "13px" }}>
-                    <i class="fa-solid text-primary fa-circle-check"></i> Get
-                    ready to use offers and pitch check template
+                    <i class="fa-solid text-primary fa-circle-check"></i> Position yourself as the go-to expert in your niche
                   </p>
                   <p style={{ marginLeft: "8px" }} className="text-primary">
-                    Get the free course{" "}
+                    Ignite My Content
                     <i
                       style={{ fontSize: "12px" }}
                       class="fa-solid fa-arrow-right"
@@ -356,26 +418,23 @@ function App() {
               <div class="card info-sec mt-3">
                 <div class="card-body text-start p-2 mt-2 info-div2">
                   <h4 style={{ fontWeight: "bold" }} className="fs-2">
-                    Start Selling on LinkedIn
+                    Strengthen Community
                   </h4>
                   <p style={{ fontSize: "14px" }} className="mb-2">
-                    A free course showing you exactly how to create an offer
-                    that sets, so you can start making money online
+                    Don’t just grow numbers — grow an audience that believes in you.
                   </p>
+                  <hr />
                   <p style={{ fontSize: "13px" }} className=" mt-3">
-                    <i class="text-primary fa-solid fa-circle-check"></i> Find
-                    your super power & ideal clients
+                    <i class="text-primary fa-solid fa-circle-check"></i> Hot Lead Comment Strategy (20–50 daily)
                   </p>
                   <p style={{ fontSize: "13px" }}>
-                    <i class="text-primary fa-solid fa-circle-check"></i> Pitch
-                    with confidents & start closing deals
+                    <i class="text-primary fa-solid fa-circle-check"></i> Personalized DMs that spark conversations
                   </p>
                   <p style={{ fontSize: "13px" }}>
-                    <i class="fa-solid text-primary fa-circle-check"></i> Get
-                    ready to use offers and pitch check template
+                    <i class="fa-solid text-primary fa-circle-check"></i> Account-Based Marketing (ABM) funnel for long-term trust
                   </p>
                   <p style={{ marginLeft: "8px" }} className="text-primary">
-                    Get the free course{" "}
+                    Let's Built
                     <i
                       style={{ fontSize: "12px" }}
                       class="fa-solid fa-arrow-right"
@@ -396,6 +455,49 @@ function App() {
               </div>
             </div>
           </div>
+          {/* Four Section */}
+          <div class="row px-4 mx-5 info-div w-[100%] info-rev">
+            <div class="col-sm-6 mb-3 mt-3">
+              <div class="card info-sec">
+                <div class="card-body info-img-div">
+                  <img
+                    src="/assets/OIP (1).jpeg"
+                    alt="picture"
+                    className="info-img w-[100%] rounded-3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card info-sec mt-3">
+                <div class="card-body text-start p-2 mt-2 info-div2">
+                  <h4 style={{ fontWeight: "bold" }} className="fs-2">
+                    Elevate Conversions
+                  </h4>
+                  <p style={{ fontSize: "14px" }} className="mb-2">
+                    Turn trust and engagement into a pipeline of ready-to-buy prospects.
+                  </p>
+                  <hr />
+                  <p style={{ fontSize: "13px" }} className=" mt-3">
+                    <i class="text-primary fa-solid fa-circle-check"></i> Conversion-optimized DMs
+                  </p>
+                  <p style={{ fontSize: "13px" }}>
+                    <i class="text-primary fa-solid fa-circle-check"></i> Sales call scripts tailored for LinkedIn leads
+                  </p>
+                  <p style={{ fontSize: "13px" }}>
+                    <i class="fa-solid text-primary fa-circle-check"></i> Closing framework to seal high-ticket deals
+                  </p>
+                  <p style={{ marginLeft: "8px" }} className="text-primary">
+                    Generate My Leads
+                    <i
+                      style={{ fontSize: "12px" }}
+                      class="fa-solid fa-arrow-right"
+                    ></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* bottom info sec */}
           <div className="w-[100%] mt-5 bg-primary">
             <div class="row px-4  mx-5 info-div info-bottom-div w-[100%]">
@@ -406,26 +508,26 @@ function App() {
                       style={{ fontSize: "14px", fontWeight: "600" }}
                       className="mb-2 text-start text-white"
                     >
-                      FOR BUSINESS OWNER
+                      For LinkedIn Creators: Coaches, C-Suits & Founders
                     </p>
                     <h1
                       style={{ fontWeight: "700" }}
                       className="text-start fs-3 text-white"
                     >
-                      Run a business? Get 5+ Warm Leads Per Week on LinkedIn -
-                      No Ad Spend
+                      Build Your Personal Brand ? Generate Inbound Leads On LinkedIn <br />No Ad Spend.
                     </h1>
                     <div className="text-start mt-4">
                       <button
                         style={{ marginLeft: "8px", fontWeight: "bold" }}
-                        className="bg-white w-[45%] info-testimonial h-[50px] rounded-pill text-black"
+                        className="bg-white  w-[45%] info-testimonial h-[50px] rounded-pill text-black"
                       >
-                        Interested? Learn more
+                        Book Your Appointment
                         <i
                           style={{ fontSize: "12px" }}
-                          class="fa-solid fa-arrow-right"
+                          className="ml-1 fa-solid fa-arrow-right "
                         ></i>
                       </button>
+                      
                     </div>
                   </div>
                 </div>
@@ -455,19 +557,18 @@ function App() {
                       className="char-info"
                       style={{ fontSize: "2.5rem", fontWeight: "bold" }}
                     >
-                      Join 500+ creators!
+                      Join 100+ Creators!
                     </h1>
                     <p style={{ fontSize: "0.82rem" }}>
-                      People just like you are getting life changing results and
-                      breaking free from 9-to-5 grind.
+                      Coaches, C-Suites & Founders are turning LinkedIn into their #1 client acquisition channel are you next ?
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-sm-6 peop-div mb-1 text-start flex items-center justify-end flex-col">
                 <Peoples />
-                <p className="ml-24 peop-div fs-6">
-                  Join our Growing creator community...
+                <p className="ml-7 peop-div fs-6">
+                  Choose Your Service Now...
                 </p>
                 <button
                   style={{ fontWeight: "bold" }}
@@ -484,13 +585,14 @@ function App() {
           <FAQ />
           <div className="flex justify-around mb-5 mt-5 mx-5 items-center choose-prog">
             <h1 style={{ fontWeight: "bold" }} className="font-bottom">
-              <i>Ready to ask questions?</i>
+              <i className="resource">Get Your First $1K on LinkedIn - Free Resource</i>
+              <p className="resource-para">Finally, a proven LinkedIn sales system that turns profile views into paying clients.</p>
             </h1>
             <button
               style={{ fontWeight: "bold" }}
               className="rounded-pill bg-primary choose-button text-white h-12 w-52"
             >
-              Choose Your Program
+              Teach Me How to Sell on LinkedIn
             </button>
           </div>
         </div>

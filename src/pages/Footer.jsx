@@ -126,7 +126,7 @@ const Footer = () => {
           {/* Newsletter Signup Section */}
           <div className="col-lg-4 col-md-12 mb-4">
             <div className="bg-white rounded-3 p-4 text-dark shadow">
-              <h5 className="fw-bold mb-3 text-dark">FREE: Learn how to start selling on LinkedIn!</h5>
+              <h5 className="fw-bold mb-3 text-dark">No spam. Just pure LinkedIn growth strategies.</h5>
               <p className="small mb-4 text-muted">
                 A free course showing you exactly how to create an offer that sells, so you can start making money online.
               </p>
