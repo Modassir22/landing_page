@@ -95,7 +95,7 @@ function App() {
             </h1>
           </div>
           <div className="px-3" style={{ fontWeight: "500" }}>
-            <p className="fs-6 hero-para">
+            <p className="hero-para">
               I help coaches, C-Suits and founders build personal brands,
               attract inbound leads,
               <br /> and close more clients on LinkedIn — all in just 90 days.
